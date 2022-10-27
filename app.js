@@ -55,13 +55,13 @@ const scissors = document.getElementById('scissors-logo')
     score.innerHTML = score_you +"-" + score_comp
     
     if(score_you == 5){
-        player.innerHTML = 'You'
+        player.innerHTML = 'Navaneeth'
         overlay.classList.add('active')
     
         
     }
     else if(score_comp == 5){
-        player.innerHTML = 'Comp'
+        player.innerHTML = 'Computer'
         overlay.classList.add('active')
     }
     
@@ -102,13 +102,13 @@ const scissors = document.getElementById('scissors-logo')
     score.innerHTML = score_you +"-" + score_comp
 
     if(score_you == 5){
-        player.innerHTML = 'You'
+        player.innerHTML = 'Navaneeth'
         overlay.classList.add('active')
     
         
     }
     else if(score_comp == 5){
-        player.innerHTML = 'Comp'
+        player.innerHTML = 'Computer'
         overlay.classList.add('active')
     }
 }
