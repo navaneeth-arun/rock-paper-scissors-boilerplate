@@ -61,7 +61,7 @@ const scissors = document.getElementById('scissors-logo')
         
     }
     else if(score_comp == 5){
-        player.innerHTML = 'Computer'
+        player.innerHTML = 'Computer '
         overlay.classList.add('active')
     }
     
